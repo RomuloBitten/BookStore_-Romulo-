@@ -13,6 +13,7 @@
 		3550B0B32948D9130037027E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3550B0B12948D9130037027E /* Main.storyboard */; };
 		3550B0B52948D9140037027E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3550B0B42948D9140037027E /* Assets.xcassets */; };
 		3550B0B82948D9140037027E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3550B0B62948D9140037027E /* LaunchScreen.storyboard */; };
+<<<<<<< HEAD
 		3550B0C12948DD2E0037027E /* APICall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550B0C02948DD2E0037027E /* APICall.swift */; };
 		3550B0C32948E27B0037027E /* ErrorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550B0C22948E27B0037027E /* ErrorHelper.swift */; };
 		3550B0C6294A3C3A0037027E /* BookApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550B0C5294A3C3A0037027E /* BookApi.swift */; };
@@ -25,6 +26,11 @@
 
 /* Begin PBXFileReference section */
 		029049A2A55D447DC7546B1B /* Pods-BookStore_[Romulo].debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookStore_[Romulo].debug.xcconfig"; path = "Target Support Files/Pods-BookStore_[Romulo]/Pods-BookStore_[Romulo].debug.xcconfig"; sourceTree = "<group>"; };
+=======
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+>>>>>>> 969cda0 (Initial Commit)
 		3550B0A82948D9130037027E /* BookStore_[Romulo].app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BookStore_[Romulo].app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3550B0AB2948D9130037027E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3550B0AD2948D9130037027E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -33,6 +39,7 @@
 		3550B0B42948D9140037027E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3550B0B72948D9140037027E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3550B0B92948D9140037027E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		3550B0C02948DD2E0037027E /* APICall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICall.swift; sourceTree = "<group>"; };
 		3550B0C22948E27B0037027E /* ErrorHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHelper.swift; sourceTree = "<group>"; };
 		3550B0C5294A3C3A0037027E /* BookApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookApi.swift; sourceTree = "<group>"; };
@@ -42,6 +49,8 @@
 		3550B0D0294B9EBE0037027E /* UrlLoaderImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlLoaderImageView.swift; sourceTree = "<group>"; };
 		3D21B287EC9B1A8B5B3CA137 /* Pods-BookStore_[Romulo].release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookStore_[Romulo].release.xcconfig"; path = "Target Support Files/Pods-BookStore_[Romulo]/Pods-BookStore_[Romulo].release.xcconfig"; sourceTree = "<group>"; };
 		EECACDC7B4BB4A646AE34EE7 /* Pods_BookStore__Romulo_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BookStore__Romulo_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+=======
+>>>>>>> 969cda0 (Initial Commit)
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +58,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				35E83DCA2EA9C819EC0002DC /* Pods_BookStore__Romulo_.framework in Frameworks */,
+=======
+>>>>>>> 969cda0 (Initial Commit)
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,8 +73,11 @@
 			children = (
 				3550B0AA2948D9130037027E /* BookStore_[Romulo] */,
 				3550B0A92948D9130037027E /* Products */,
+<<<<<<< HEAD
 				605C415973D8EDEDEEC98852 /* Pods */,
 				6EBB47A425C94713EE650DED /* Frameworks */,
+=======
+>>>>>>> 969cda0 (Initial Commit)
 			);
 			sourceTree = "<group>";
 		};
@@ -77,8 +92,11 @@
 		3550B0AA2948D9130037027E /* BookStore_[Romulo] */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				3550B0C9294B9A9C0037027E /* Presentation */,
 				3550B0BF2948DD0C0037027E /* Repository */,
+=======
+>>>>>>> 969cda0 (Initial Commit)
 				3550B0AB2948D9130037027E /* AppDelegate.swift */,
 				3550B0AD2948D9130037027E /* SceneDelegate.swift */,
 				3550B0AF2948D9130037027E /* ViewController.swift */,
@@ -90,6 +108,7 @@
 			path = "BookStore_[Romulo]";
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		3550B0BF2948DD0C0037027E /* Repository */ = {
 			isa = PBXGroup;
 			children = (
@@ -152,6 +171,8 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+=======
+>>>>>>> 969cda0 (Initial Commit)
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,11 +180,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3550B0BC2948D9140037027E /* Build configuration list for PBXNativeTarget "BookStore_[Romulo]" */;
 			buildPhases = (
+<<<<<<< HEAD
 				8050EA4D0DBF39A989DC7021 /* [CP] Check Pods Manifest.lock */,
 				3550B0A42948D9130037027E /* Sources */,
 				3550B0A52948D9130037027E /* Frameworks */,
 				3550B0A62948D9130037027E /* Resources */,
 				283E8380C821C5AD60D1A6A7 /* [CP] Embed Pods Frameworks */,
+=======
+				3550B0A42948D9130037027E /* Sources */,
+				3550B0A52948D9130037027E /* Frameworks */,
+				3550B0A62948D9130037027E /* Resources */,
+>>>>>>> 969cda0 (Initial Commit)
 			);
 			buildRules = (
 			);
@@ -220,6 +247,7 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+<<<<<<< HEAD
 /* Begin PBXShellScriptBuildPhase section */
 		283E8380C821C5AD60D1A6A7 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -262,6 +290,8 @@
 		};
 /* End PBXShellScriptBuildPhase section */
 
+=======
+>>>>>>> 969cda0 (Initial Commit)
 /* Begin PBXSourcesBuildPhase section */
 		3550B0A42948D9130037027E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -269,6 +299,7 @@
 			files = (
 				3550B0B02948D9130037027E /* ViewController.swift in Sources */,
 				3550B0AC2948D9130037027E /* AppDelegate.swift in Sources */,
+<<<<<<< HEAD
 				3550B0C32948E27B0037027E /* ErrorHelper.swift in Sources */,
 				3550B0D1294B9EBE0037027E /* UrlLoaderImageView.swift in Sources */,
 				3550B0C12948DD2E0037027E /* APICall.swift in Sources */,
@@ -277,6 +308,9 @@
 				3550B0C6294A3C3A0037027E /* BookApi.swift in Sources */,
 				3550B0CF294B9CFD0037027E /* BookItemTableViewCell.swift in Sources */,
 				3550B0C8294A3FF90037027E /* BookModel.swift in Sources */,
+=======
+				3550B0AE2948D9130037027E /* SceneDelegate.swift in Sources */,
+>>>>>>> 969cda0 (Initial Commit)
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,7 +454,10 @@
 		};
 		3550B0BD2948D9140037027E /* Debug */ = {
 			isa = XCBuildConfiguration;
+<<<<<<< HEAD
 			baseConfigurationReference = 029049A2A55D447DC7546B1B /* Pods-BookStore_[Romulo].debug.xcconfig */;
+=======
+>>>>>>> 969cda0 (Initial Commit)
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -448,7 +485,10 @@
 		};
 		3550B0BE2948D9140037027E /* Release */ = {
 			isa = XCBuildConfiguration;
+<<<<<<< HEAD
 			baseConfigurationReference = 3D21B287EC9B1A8B5B3CA137 /* Pods-BookStore_[Romulo].release.xcconfig */;
+=======
+>>>>>>> 969cda0 (Initial Commit)
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
