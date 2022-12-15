@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3550B0AC2948D9130037027E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550B0AB2948D9130037027E /* AppDelegate.swift */; };
+		3550B0AE2948D9130037027E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550B0AD2948D9130037027E /* SceneDelegate.swift */; };
+		3550B0B02948D9130037027E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550B0AF2948D9130037027E /* ViewController.swift */; };
+		3550B0B32948D9130037027E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3550B0B12948D9130037027E /* Main.storyboard */; };
+		3550B0B52948D9140037027E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3550B0B42948D9140037027E /* Assets.xcassets */; };
+		3550B0B82948D9140037027E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3550B0B62948D9140037027E /* LaunchScreen.storyboard */; };
+		3550B0C12948DD2E0037027E /* APICall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550B0C02948DD2E0037027E /* APICall.swift */; };
+		3550B0C32948E27B0037027E /* ErrorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550B0C22948E27B0037027E /* ErrorHelper.swift */; };
+		3550B0C6294A3C3A0037027E /* BookApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550B0C5294A3C3A0037027E /* BookApi.swift */; };
+		3550B0C8294A3FF90037027E /* BookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550B0C7294A3FF90037027E /* BookModel.swift */; };
+		3550B0CC294B9B060037027E /* BookListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550B0CB294B9B060037027E /* BookListViewController.swift */; };
+		3550B0CF294B9CFD0037027E /* BookItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550B0CE294B9CFD0037027E /* BookItemTableViewCell.swift */; };
+		3550B0D1294B9EBE0037027E /* UrlLoaderImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550B0D0294B9EBE0037027E /* UrlLoaderImageView.swift */; };
+		35E83DCA2EA9C819EC0002DC /* Pods_BookStore__Romulo_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EECACDC7B4BB4A646AE34EE7 /* Pods_BookStore__Romulo_.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		029049A2A55D447DC7546B1B /* Pods-BookStore_[Romulo].debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookStore_[Romulo].debug.xcconfig"; path = "Target Support Files/Pods-BookStore_[Romulo]/Pods-BookStore_[Romulo].debug.xcconfig"; sourceTree = "<group>"; };
+		3550B0A82948D9130037027E /* BookStore_[Romulo].app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BookStore_[Romulo].app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3550B0AB2948D9130037027E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3550B0AD2948D9130037027E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3550B0AF2948D9130037027E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3550B0B22948D9130037027E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3550B0B42948D9140037027E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3550B0B72948D9140037027E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3550B0B92948D9140037027E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3550B0C02948DD2E0037027E /* APICall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICall.swift; sourceTree = "<group>"; };
+		3550B0C22948E27B0037027E /* ErrorHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHelper.swift; sourceTree = "<group>"; };
+		3550B0C5294A3C3A0037027E /* BookApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookApi.swift; sourceTree = "<group>"; };
+		3550B0C7294A3FF90037027E /* BookModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookModel.swift; sourceTree = "<group>"; };
+		3550B0CB294B9B060037027E /* BookListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListViewController.swift; sourceTree = "<group>"; };
+		3550B0CE294B9CFD0037027E /* BookItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookItemTableViewCell.swift; sourceTree = "<group>"; };
+		3550B0D0294B9EBE0037027E /* UrlLoaderImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlLoaderImageView.swift; sourceTree = "<group>"; };
+		3D21B287EC9B1A8B5B3CA137 /* Pods-BookStore_[Romulo].release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookStore_[Romulo].release.xcconfig"; path = "Target Support Files/Pods-BookStore_[Romulo]/Pods-BookStore_[Romulo].release.xcconfig"; sourceTree = "<group>"; };
+		EECACDC7B4BB4A646AE34EE7 /* Pods_BookStore__Romulo_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BookStore__Romulo_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3550B0A52948D9130037027E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35E83DCA2EA9C819EC0002DC /* Pods_BookStore__Romulo_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3550B09F2948D9130037027E = {
+			isa = PBXGroup;
+			children = (
+				3550B0AA2948D9130037027E /* BookStore_[Romulo] */,
+				3550B0A92948D9130037027E /* Products */,
+				605C415973D8EDEDEEC98852 /* Pods */,
+				6EBB47A425C94713EE650DED /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3550B0A92948D9130037027E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3550B0A82948D9130037027E /* BookStore_[Romulo].app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3550B0AA2948D9130037027E /* BookStore_[Romulo] */ = {
+			isa = PBXGroup;
+			children = (
+				3550B0C9294B9A9C0037027E /* Presentation */,
+				3550B0BF2948DD0C0037027E /* Repository */,
+				3550B0AB2948D9130037027E /* AppDelegate.swift */,
+				3550B0AD2948D9130037027E /* SceneDelegate.swift */,
+				3550B0AF2948D9130037027E /* ViewController.swift */,
+				3550B0B12948D9130037027E /* Main.storyboard */,
+				3550B0B42948D9140037027E /* Assets.xcassets */,
+				3550B0B62948D9140037027E /* LaunchScreen.storyboard */,
+				3550B0B92948D9140037027E /* Info.plist */,
+			);
+			path = "BookStore_[Romulo]";
+			sourceTree = "<group>";
+		};
+		3550B0BF2948DD0C0037027E /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				3550B0C4294A3B560037027E /* BooksRepository */,
+				3550B0C02948DD2E0037027E /* APICall.swift */,
+				3550B0C22948E27B0037027E /* ErrorHelper.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		3550B0C4294A3B560037027E /* BooksRepository */ = {
+			isa = PBXGroup;
+			children = (
+				3550B0C5294A3C3A0037027E /* BookApi.swift */,
+				3550B0C7294A3FF90037027E /* BookModel.swift */,
+			);
+			path = BooksRepository;
+			sourceTree = "<group>";
+		};
+		3550B0C9294B9A9C0037027E /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				3550B0CA294B9ACC0037027E /* BookList */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		3550B0CA294B9ACC0037027E /* BookList */ = {
+			isa = PBXGroup;
+			children = (
+				3550B0CD294B9CD80037027E /* Components */,
+				3550B0CB294B9B060037027E /* BookListViewController.swift */,
+			);
+			path = BookList;
+			sourceTree = "<group>";
+		};
+		3550B0CD294B9CD80037027E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3550B0CE294B9CFD0037027E /* BookItemTableViewCell.swift */,
+				3550B0D0294B9EBE0037027E /* UrlLoaderImageView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		605C415973D8EDEDEEC98852 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				029049A2A55D447DC7546B1B /* Pods-BookStore_[Romulo].debug.xcconfig */,
+				3D21B287EC9B1A8B5B3CA137 /* Pods-BookStore_[Romulo].release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6EBB47A425C94713EE650DED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EECACDC7B4BB4A646AE34EE7 /* Pods_BookStore__Romulo_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3550B0A72948D9130037027E /* BookStore_[Romulo] */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3550B0BC2948D9140037027E /* Build configuration list for PBXNativeTarget "BookStore_[Romulo]" */;
+			buildPhases = (
+				8050EA4D0DBF39A989DC7021 /* [CP] Check Pods Manifest.lock */,
+				3550B0A42948D9130037027E /* Sources */,
+				3550B0A52948D9130037027E /* Frameworks */,
+				3550B0A62948D9130037027E /* Resources */,
+				283E8380C821C5AD60D1A6A7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BookStore_[Romulo]";
+			productName = "BookStore_[Romulo]";
+			productReference = 3550B0A82948D9130037027E /* BookStore_[Romulo].app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3550B0A02948D9130037027E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					3550B0A72948D9130037027E = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 3550B0A32948D9130037027E /* Build configuration list for PBXProject "BookStore_[Romulo]" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3550B09F2948D9130037027E;
+			productRefGroup = 3550B0A92948D9130037027E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3550B0A72948D9130037027E /* BookStore_[Romulo] */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3550B0A62948D9130037027E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3550B0B82948D9140037027E /* LaunchScreen.storyboard in Resources */,
+				3550B0B52948D9140037027E /* Assets.xcassets in Resources */,
+				3550B0B32948D9130037027E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		283E8380C821C5AD60D1A6A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BookStore_[Romulo]/Pods-BookStore_[Romulo]-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BookStore_[Romulo]/Pods-BookStore_[Romulo]-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BookStore_[Romulo]/Pods-BookStore_[Romulo]-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8050EA4D0DBF39A989DC7021 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BookStore_[Romulo]-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3550B0A42948D9130037027E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3550B0B02948D9130037027E /* ViewController.swift in Sources */,
+				3550B0AC2948D9130037027E /* AppDelegate.swift in Sources */,
+				3550B0C32948E27B0037027E /* ErrorHelper.swift in Sources */,
+				3550B0D1294B9EBE0037027E /* UrlLoaderImageView.swift in Sources */,
+				3550B0C12948DD2E0037027E /* APICall.swift in Sources */,
+				3550B0AE2948D9130037027E /* SceneDelegate.swift in Sources */,
+				3550B0CC294B9B060037027E /* BookListViewController.swift in Sources */,
+				3550B0C6294A3C3A0037027E /* BookApi.swift in Sources */,
+				3550B0CF294B9CFD0037027E /* BookItemTableViewCell.swift in Sources */,
+				3550B0C8294A3FF90037027E /* BookModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3550B0B12948D9130037027E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3550B0B22948D9130037027E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3550B0B62948D9140037027E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3550B0B72948D9140037027E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3550B0BA2948D9140037027E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3550B0BB2948D9140037027E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3550B0BD2948D9140037027E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 029049A2A55D447DC7546B1B /* Pods-BookStore_[Romulo].debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BookStore_[Romulo]/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "RomuloBitten.BookStore--Romulo-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3550B0BE2948D9140037027E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D21B287EC9B1A8B5B3CA137 /* Pods-BookStore_[Romulo].release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BookStore_[Romulo]/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "RomuloBitten.BookStore--Romulo-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3550B0A32948D9130037027E /* Build configuration list for PBXProject "BookStore_[Romulo]" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3550B0BA2948D9140037027E /* Debug */,
+				3550B0BB2948D9140037027E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3550B0BC2948D9140037027E /* Build configuration list for PBXNativeTarget "BookStore_[Romulo]" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3550B0BD2948D9140037027E /* Debug */,
+				3550B0BE2948D9140037027E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3550B0A02948D9130037027E /* Project object */;
+}
